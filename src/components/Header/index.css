@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.nav-bar-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-right: 20px;
+  padding-left: 20px;
+}
+@media (min-width: 992px) {
+  .nav-bar-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+@media (min-width: 992px) {
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+}
+
+.wave-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 0;
+}
+.wave-heading {
+  font-size: 21px;
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  .wave-logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 12px;
+  }
+  .wave-heading {
+    font-size: 22px;
+  }
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  color: #12022f;
+  font-size: 21px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  .menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .heading {
+    color: #12022f;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 20px;
+  }
+}
